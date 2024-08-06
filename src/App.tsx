@@ -1,4 +1,5 @@
 import PatientForm from "./Components/PatientForm"
+import PatientList from "./Components/PatientList"
 
 function App() {
 
@@ -13,7 +14,9 @@ function App() {
 
       <div className="mt-12 md:flex">
         <PatientForm/>
+        <PatientList/>
       </div>
+
     </>
   )
 }
